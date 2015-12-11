@@ -1,6 +1,6 @@
 Magspoof
 ========
-This project is a merged clone of samyk's (magspoof) [https://github.com/samyk/magspoof] and joshlf's (magspoof) [https://github.com/joshlf/magspoof].
+This project is a merged clone of samyk's [magspoof] (https://github.com/samyk/magspoof) and joshlf's [magspoof] (https://github.com/joshlf/magspoof).
 Samy has written a very detailed blog and recorded a brilliant video on YouTube.  I would like to copy what they did but couldn't find ATtiny85.  Hence, I tried to port the programmes on Arduino Nano.
 
 The circuit is copied from Samy.  L293D works at 5V, so there's no problem using a USB powerbank for demonstration.
