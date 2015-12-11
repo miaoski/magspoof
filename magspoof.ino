@@ -10,7 +10,7 @@ void playBit(int bit);
 #define PIN_B    4      // right pin, to L293D pin 7
 #define ENABLE_PIN 13
 #define BUTTON_PIN 12
-#define CLOCK_US 200
+#define CLOCK_US 400
 #define BETWEEN_ZERO 53 // 53 zeros between track1 & 2
 
 int polarity = 0;
@@ -86,7 +86,7 @@ void playTrack(int track)
 
   Serial.print("Sending: ");
   for(int i = 0; tracks[track][i] != '\0'; i++) {
-    Serial.print(tracks[track][i]);
+    Serial.print(tracks[track][i]);     // The delay that Track 1 needs.
     crc = 1;
     tmp = tracks[track][i] - sublen[track];
 
